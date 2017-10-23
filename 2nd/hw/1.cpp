@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include <windows.h>
 
 int main()
 { 
-    int a,b;
-    a = 65;
+    int a,b,c;
+    a = 123;
     b = 456;
-    b = a;
+    c = a;
+    a = b;
+    b = c;
     printf("%c%d",a,b);
-    system("pause");
     return 0;
 }
