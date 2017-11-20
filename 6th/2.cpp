@@ -12,12 +12,18 @@ int main()
 {
     float money,cost,price;
     scanf("%f",&money);
+    //定义三个字符型变量并给原价(money)输入赋值
+    
     if(money>500) cost=0.2;
      else if(money>300) cost=0.15;
       else if(money>100) cost=0.1;
        else if(money>50) cost=0.05;
         else cost=0;
+    //判断原价区间，给折扣(cost)赋对应的值
+    
     price = money - money * cost;
     printf("%.0f",price);
+    //计算价格并输出
+    
     return 0;
 }
