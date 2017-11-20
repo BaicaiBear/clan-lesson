@@ -19,6 +19,5 @@ int main()
         else cost=0;
     price = money - money * cost;
     printf("%.0f",price);
-    system("PAUSE");
     return 0;
 }
